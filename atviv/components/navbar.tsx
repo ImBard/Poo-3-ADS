@@ -12,7 +12,7 @@ export function Navbar() {
           target="_blank"
           className="inline-block text-sm px-4 py-2 leading-none border rounded text-primary border-primary hover:border-transparent hover:text-gray-500 hover:bg-white mt-4 lg:mt-0"
         >
-          POO_ATV_III
+          POO_ATV
         </a>
       </div>
     </nav>

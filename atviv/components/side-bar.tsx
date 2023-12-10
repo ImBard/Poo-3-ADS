@@ -47,7 +47,7 @@ export function SheetDemo() {
         <Button variant='outline' className={clsx(
           { 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4': pathname === '/usuario/create' },
         )}>
-          <Link className="w-full" href={'/usuario/create'}>
+          <Link className="w-full" href={'/users/create'}>
             Cadastrar Novo Cliente
           </Link>
         </Button>
@@ -55,7 +55,7 @@ export function SheetDemo() {
         <Button variant='outline' className={clsx(
           { 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4': pathname === '/usuario' },
         )}>
-          <Link className="w-full" href={'/usuario'}>
+          <Link className="w-full" href={'/users'}>
             Clientes
           </Link>
         </Button>
